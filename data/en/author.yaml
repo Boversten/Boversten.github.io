@@ -1,0 +1,34 @@
+# some information about you
+name: "Kathleen Xu"
+nickname: "Kathleen"
+image: "images/default-avatar.png"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "bfst[at]mit.edu"
+#  phone: "+0123456789"
+  Linkedin:
+    icon: linkedin
+    url: "https://www.linkedin.com/in/kathleen-shiyin-xu/"
+    text: "Linkedin"
+  Github:
+    icon: github
+    url: "https://github.com/Boversten"
+    text: "Github"
+  steam:
+    icon: steam
+    url: "https://steamcommunity.com/id/boversten21/"
+    text: "Steam"
+  Google:
+    icon: google
+    url: "https://scholar.google.com/citations?user=d-zoJD0AAAAJ&hl=en"
+    text: "Google Scholar"
+
+# a summary of what you do
+summary:
+- I am a M.S. student at MIT
+- I study Aeronautics and Astronautics
+- I work on exciting aerospace projects
