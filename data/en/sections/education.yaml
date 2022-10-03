@@ -1,0 +1,163 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: M.S. in Aeronautics and Astronautics
+  icon: fa-university
+  timeframe: 2021-Present
+  institution:
+    name: Massachusetts Institute  of Technology
+    url: "https://www.mit.edu/"
+#  grade: #(optional)
+#    scale: CGPA
+#    achieved: 3.6
+#    outOf: 4
+#  publications: #(optional)
+#  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    url: "#"
+#  - title: Fusce eu augue ut odio porttitor pulvinar.
+#    url: "#"
+#  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#    url: "#"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 5
+    courses:
+      - name: Feedback Control Systems
+        achieved: 3.75
+        outOf: 4
+      - name: Formal Methods for System Verification
+        achieved: 3.80
+        outOf: 4
+      - name: Underactuated Robotics
+        achieved: 3.5
+        outOf: 4
+      - name: Machine Learning
+        achieved: 3.75
+        outOf: 4
+      - name: Computational Science and Engineering
+        achieved: 3.80
+        outOf: 4
+    extracurricularActivities: #(optional)
+
+- name: B.S. in Aerospace Engineering
+  icon: fa-graduation-cap
+  timeframe: 2017-2021
+  institution:
+    name: University of Illinois Urbana-Champaign
+    url: "https://illinois.edu/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 5
+    courses:
+    - name: Aerospace Systems Design
+      achieved: 3.75
+      outOf: 4
+    - name: Spacecraft Attitude Control
+      achieved: 3.80
+      outOf: 4
+    - name: Aerospace Flight Mechanics
+      achieved: 3.5
+      outOf: 4
+    - name: Aerospace Propulsion + Lab
+      achieved: 3.75
+      outOf: 4
+    - name: UAV Navigation and Control
+      achieved: 3.75
+      outOf: 4
+    - name: Fields and Waves
+      achieved: 3.80
+      outOf: 4
+    - name: Analog Signal Processing
+      achieved: 3.5
+      outOf: 4
+    - name: Finite Element Analysis
+      achieved: 3.75
+      outOf: 4
+    - name: Applied Aerospace Structures + Lab
+      achieved: 3.80
+      outOf: 4
+    - name: Aerospace Numerical Methods
+      achieved: 3.5
+      outOf: 4
+    - name: Aerospace Dynamical Systems
+      achieved: 3.75
+      outOf: 4
+    - name: Mechs of Aerospace Structures
+      achieved: 3.75
+      outOf: 4
+    - name: Compressible Flow
+      achieved: 3.75
+      outOf: 4
+    - name: University Physics-Elec & Mag
+      achieved: 3.80
+      outOf: 4
+    - name: Thermodynamics
+      achieved: 3.5
+      outOf: 4
+    - name: Aerospace Control Systems
+      achieved: 3.75
+      outOf: 4
+    - name: Incompressible Flow
+      achieved: 3.75
+      outOf: 4
+    - name: Introductory Dynamics
+      achieved: 3.5
+      outOf: 4
+    - name: Elec & Electronic Circuits + Lab
+      achieved: 3.75
+      outOf: 4
+    - name: Statics
+      achieved: 3.75
+      outOf: 4
+    - name: Engineering Materials
+      achieved: 3.75
+      outOf: 4
+    - name: Applied Linear Algebra
+      achieved: 3.80
+      outOf: 4
+    - name: Intro Differential Equations
+      achieved: 3.5
+      outOf: 4
+    - name: Analysis of Data
+      achieved: 3.75
+      outOf: 4
+    - name: University Physics-Mechanics
+      achieved: 3.75
+      outOf: 4
+    - name: Calculus III
+      achieved: 3.80
+      outOf: 4
+    - name: Computer Aided Design
+      achieved: 3.5
+      outOf: 4
+    - name: Intro to Aerospace Engineering
+      achieved: 3.75
+      outOf: 4
+  publications: #(optional)
+  - title: Repulsion-Based p-Dispersion with Distance Constraints in Non-Convex Polygons.
+    url: "https://link.springer.com/article/10.1007/s10479-021-04281-z"
+  - title: Quantitative Resilience of Generalized Integrators.
+    url: "https://arxiv.org/pdf/2111.04163.pdf"
+  - title: Quantitative Resilience of Linear Driftless Systems.
+    url: "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976847.5"
+  - title: Spacecraft Trajectory Tracking and Parameter Estimation Around a Splitting Contact Binary Asteroid.
+    url: "https://www.researchgate.net/profile/Koki-Ho/publication/339742412_SPACECRAFT_trajectory_tracking_and_parameter_estimation_around_a_splitting_contact_binary_asteroid/links/5e624c54a6fdcc37dd07bae7/SPACECRAFT-trajectory-tracking-and-parameter-estimation-around-a-splitting-contact-binary-asteroid.pdf"
+  extracurricularActivities: #(optional)
+  - Illinois Robotics in Space, Mechanical Lead.
+  - Satellite Development Organization, Attitude Determination & Control Systems Team Member.
+  - Student Aircraft Builders, Build Team Mentor.

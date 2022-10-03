@@ -1,0 +1,41 @@
+# section information
+section:
+  name: 项目
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: 全部
+  filter: "all"
+- name: 专业
+  filter: "professional"
+- name: 学术
+  filter: "academic"
+- name: 业余爱好
+  filter: "hobby"
+
+# your projects
+projects:
+- name: 苏霍伊-30MKK战斗机三维模型
+  logo: /images/sections/projects/SU30.jpg
+  role: 所有者
+  timeline: "Oct. 2017 - Dec. 2017"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: https://boversten.github.io/posts/project-portfolio/cad/su30/su30/
+  summary: 我的 AE 199 课程期末项目：带有可移动前起落架的苏霍伊-30MKK战斗机三维模型。使用西门子 NX v.10 创建。
+  tags: ["电脑建模", "三维模型", "西门子 NX"]
+
+- name: 更多敬请期待
+  logo:
+  role: 所有者
+  timeline:
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "Boversten.github.io/posts"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary:
+   敬请期待。
+  tags: []

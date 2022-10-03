@@ -1,0 +1,122 @@
+# section information
+section:
+  name: 发表文章
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: 所以
+  filter: "all"
+- name: 太空系统
+  filter: "space systems"
+- name: 优化
+  filter: "optimization"
+- name: 控制
+  filter: "controls"
+
+
+# your publications
+publications:
+
+- title: 广义积分器的定量弹性
+  publishedIn:
+    name: 已投稿
+    date: 2022年2月
+    url:
+  authors:
+  - name: 让-巴蒂斯特·布维尔
+    url: https://www.researchgate.net/profile/Jean-Baptiste-Bouvier
+  - name: 徐诗吟
+    url:
+  - name: 梅尔基尔·奥尼克博士
+    url: https://mornik.web.illinois.edu/
+  paper:
+    summary: 要设计关键系统，工程师必须能够证明他们的系统即使在失去某些执行器的控制权限后也能继续执行任务。
+      这种故障会导致执行器产生可能不需要的输入，控制器在这些输入上具有实时读数但无法控制。根据定义，如果系统在部分失去控制权后仍能达到目标，则系统具有弹性。
+      但是，在发生此类故障后，与初始能力相比，弹性系统到达目标的速度可能要慢得多。为了量化这种性能损失，我们引入定量弹性的概念，即初始和故障系统达到所需任何目标的最短时间的最大比率。
+      直接从定义中简单地计算定量弹性是一项复杂的任务，因为它需要解决四个嵌套的、可能是非线性的优化问题。这项工作的主要技术贡献是提出了一个计算具有多个积分器和非对称输入集的控制系统的定量弹性
+      的高效算法。依靠控制理论和两个新颖的几何结果，我们将定量弹性的计算减少为线性优化问题。我们在两个方面说明我们的方法数值示例——低推力航天器的轨迹控制器和带有八个螺旋桨的无人机。
+    url: https://arxiv.org/pdf/2111.04163.pdf
+  categories: ["optimization","controls","space systems"]
+  tags: ["弹性系统", "执行器错误", "可达性","优化"]
+
+- title: 非凸多边形中具有距离约束的基于排斥的 p-分散
+  publishedIn:
+    name: 运筹学年鉴
+    date: 2021年9月
+    url: https://www.springer.com/journal/10479
+  authors:
+  - name: 戴正冠
+    url: https://github.com/zd6?tab=repositories
+  - name: 徐诗吟
+    url:
+  - name: 梅尔基尔·奥尼克博士
+    url: https://mornik.web.illinois.edu/
+  paper:
+    summary: 受最优设施布置问题的启发，经典的 p-分散问题寻求放置固定数量的相同大小的
+     最大可能半径的非重叠圆进入平面的子集。虽然在特定集合中可以找到该问题的确切解决方案， 但对于一般集合，
+      该问题被证明是 NP 完全的，并且现有的工作主要受限于简单几何集合。
+      本文对 p-分散理论做出了两个贡献。首先，我们针对在所有非凸多边形中的 p-分散问题提出了一种计算上可行的次优方法。
+      所提出的方法，受 p-体问题力学的启发，将圆心视为连续的在平面内移动的物体并在不同的圆之间，以及圆和多边形边界之间，分配大小与相应的距离成反比排斥力。
+      此外，在优化设施布局的实际应用的启发下，我们考虑了圆心之间额外的硬上限或硬下限距离，并调整了所提出的方法以提供在这种约束下的 p-分散解决方案。
+      我们通过与以前的精确和近似方法进行比较来验证我们提出的方法。我们证实了该方法可以快速为许多复杂容器提供接近最佳的结果。
+    url: https://link.springer.com/article/10.1007/s10479-021-04281-z
+  categories: ["optimization"]
+  tags: ["分散", "策略计划", "优化"]
+
+- title: 线性无漂移系统的定量弹性
+  publishedIn:
+    name: SIAM 2021 控制及其应用会议
+    date: 2021年7月
+    url: https://epubs.siam.org/doi/book/10.1137/1.9781611976847
+  authors:
+  - name: 让-巴蒂斯特·布维尔
+    url: https://www.researchgate.net/profile/Jean-Baptiste-Bouvier
+  - name: 徐诗吟
+    url:
+  - name: 梅尔基尔·奥尼克博士
+    url: https://mornik.web.illinois.edu/
+  paper:
+    summary: 本文介绍了控制系统的定量弹性的概念。在之前的工作之后，我们研究了失去某些执行器的控制权的线性无漂移系统。
+     这种故障会导致执行器产生可能不需要的输入。控制器有实时读数但无法控制。根据定义，如果部分失去控制权的系统在经过一段时间后仍能达到目标，那么它就是有弹性的。
+      但是，在发生此类故障后，弹性系统与其初始能力相比可能会显著降低达到目标的速度。
+      我们通过量化弹性的新概念来量化这种性能损失。我们定义这样一个
+      度量作为初始系统和故障系统达到任何目标所需的最短时间的最大比率。
+      直接从定义中计算定量弹性是一项复杂的任务，因为它需要解决四个嵌套的、可能是非线性的优化
+      问题。这项工作的主要技术贡献是提供了一种计算定量弹性的有效方法。依靠控制
+      理论和两个新颖的几何结果，我们将定量弹性的计算简化为单个线性优化问题。我们
+      在一个意见动态场景中展示我们的方法。
+    url: https://epubs.siam.org/doi/pdf/10.1137/1.9781611976847.5
+  categories: ["optimization","controls"]
+  tags: ["弹性系统", "执行器错误", "可达性","优化"]
+
+- title: 分裂接触二元小行星周围的航天器轨迹跟踪和参数估计
+  publishedIn:
+    name: 宇航学报
+    date: 2020年3月
+    url: https://www.researchgate.net/journal/Acta-Astronautica-0094-5765
+  authors:
+  - name: 蒂亚戈·席尔瓦
+    url: https://www.researchgate.net/profile/Tiago-Silva-53
+  - name: 让-巴蒂斯特·布维尔
+    url: https://www.researchgate.net/profile/Jean-Baptiste-Bouvier
+  - name: 徐诗吟
+    url:
+  - name: Masatoshi Hirabayashi 博士
+    url: https://www.eng.auburn.edu/directory/mzh0114
+  - name: Koki Ho 博士
+    url: https://ssdl.gatech.edu/people/dr-koki-ho
+  paper:
+    summary: 对小行星采矿和就地资源利用的兴趣的增加将导致小行星表面作业大幅增加。
+     小行星的地球物理特性通常是未知的，而这些特性却在由此产生的引力场中发挥着重要作用。表面操作
+     例如采矿可能会显着改变小行星的结构，抑或是在接触二元小行星的情况下会导致小行星在旋转状态下分裂。
+      本文研究了分裂接触二元小行星未知参数估计与附近的航天器轨迹跟踪的控制耦合问题。
+      本文提出了间接自适应控制方案用于同时满足这两个目标。我们将结果与传统的二体控制器进行了比较，并证明了所提出的方案所带来的改进。
+    url: https://www.researchgate.net/publication/339742412_SPACECRAFT_trajectory_tracking_and_parameter_estimation_around_a_splitting_contact_binary_asteroid
+  categories: ["space systems","controls"]
+  tags: ["间接自适应控制", "轨迹跟踪", "卡尔曼滤波器"]

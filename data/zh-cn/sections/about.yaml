@@ -1,0 +1,122 @@
+# section information
+section:
+  name: 简介
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: 硕士研究生
+# your company information
+company:
+  name: 麻省理工学院航空航天系
+  url: "https://aeroastro.mit.edu/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: '我对太空探索充满热情，我的梦想是发展商业太空飞行，使人类能够在不久的将来前往深空。
+        我过去的研究重点是使用安全证书对自动化系统进行安全弹性控制， 
+        分析及量化控制系统在失去控制权限时的性能损失，
+        开发在具有距离约束的自由形式非凸多边形中能够高效优化设施放置的算法，
+        以及使用间接自适应控制对分裂接触二元小行星周围的航天器进行轨迹跟踪和参数估计。
+        2021年，我本科毕业于伊利诺伊大学香槟分校航空航天系。
+        
+        空闲时，我喜欢玩硬核电子游戏，
+        特别是 [宫崎英高](https://en.wikipedia.org/wiki/Hidetaka_Miyazaki) 的作品
+        和 [怪物猎人](https://www.monsterhunter.com/) 系列，
+        观看意大利 [意甲](https://www.legaseriea.it/it) 足球，
+        练习 [中国书法](https://en.wikipedia.org/wiki/Chinese_calligraphy),
+        或逛 [B站](https://www.bilibili.com/)。'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "bfst[at]mit.edu"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Boversten"
+
+- name: Google
+  icon: "fab fa-google"
+  url: "https://scholar.google.com/citations?user=d-zoJD0AAAAJ&hl=en"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/kathleen-shiyin-xu/"
+
+- name: Steam
+  icon: "fab fa-steam"
+  url: "https://steamcommunity.com/id/boversten21/"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+#- type: certification
+#  name: MIT AeroAstro
+#  url: "https://aeroastro.mit.edu/"
+#  badge: "https://aeroastro.mit.edu/wp-content/uploads/2021/08/cropped-favicon_192x192.png"
+
+- type: certification
+  name: MIT circle
+  url: "https://www.mit.edu/"
+  badge: "https://cdn.freebiesupply.com/images/large/2x/mit-logo-transparent.png"
+
+- type: certification
+  name: UIUC circle
+  url: "https://illinois.edu/"
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/University_of_Illinois_seal.svg/1200px-University_of_Illinois_seal.svg.png"
+
+#- type: certification
+#  name: MIT
+#  url: "https://www.mit.edu/"
+#  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png"
+#
+#- type: certification
+#  name: UIUC
+#  url: "https://illinois.edu/"
+#  badge: "https://tukuz.com/wp-content/uploads/2020/12/university-of-illinois-at-urbana-champaign-logo-vector.png"
+
+- type: soft-skill-indicator
+  name: Next Stop- Loading...
+  percentage: 80
+  color: green
+
+#
+- type: certification
+  name: Elden Ring
+  url: "https://www.eldenring.jp/"
+  badge: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c78bc3fc-9f08-47ca-81ae-d89055c7ec49/df07981-d61d2072-c7ae-40cb-a6af-f71a1f3295c2.png/v1/fill/w_512,h_512,strp/elden_ring_icon_by_andonovmarko_df07981-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvYzc4YmMzZmMtOWYwOC00N2NhLTgxYWUtZDg5MDU1YzdlYzQ5XC9kZjA3OTgxLWQ2MWQyMDcyLWM3YWUtNDBjYi1hNmFmLWY3MWExZjMyOTVjMi5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.cGhMnB6fWflVUFn7OJu0BjReoTA0fTBHhtdY0NYd3oU"
+
+- type: certification
+  name: Dark Souls
+  url: "https://www.darksouls.jp/"
+  badge: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c78bc3fc-9f08-47ca-81ae-d89055c7ec49/dcfsvbo-d5e6d640-4da7-4410-80e4-881c244ecccf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3OGJjM2ZjLTlmMDgtNDdjYS04MWFlLWQ4OTA1NWM3ZWM0OVwvZGNmc3Ziby1kNWU2ZDY0MC00ZGE3LTQ0MTAtODBlNC04ODFjMjQ0ZWNjY2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RG3jqazoVpfGEdzfTvtTVGt2mglZmgD69FnBVun6NZk"
+
+- type: certification
+  name: Sekiro
+  url: "https://www.sekiro.jp/"
+  badge: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/3367fa99-0ba6-454c-b947-683f1a9f896d/ddwh3ph-92b34e9e-b5fb-4507-a8e1-1253c19b21b9.png"
+
+- type: certification
+  name: Demon Souls
+  url: "https://www.playstation.com/en-us/games/demons-souls/"
+  badge: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9223f636-4088-439b-b879-a939912979c4/deiilwo-dd7b0cd6-dc41-4dc9-ba7e-66f3bd7ba33c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkyMjNmNjM2LTQwODgtNDM5Yi1iODc5LWE5Mzk5MTI5NzljNFwvZGVpaWx3by1kZDdiMGNkNi1kYzQxLTRkYzktYmE3ZS02NmYzYmQ3YmEzM2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5mh4TtuHg1cIudURUOxXNS79mnebD6v-CKCqucsoxPg"
+
+- type: certification
+  name: Dark Souls III
+  url: "https://www.darksouls.jp/"
+  badge: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c78bc3fc-9f08-47ca-81ae-d89055c7ec49/d9n17xr-767cf7e7-8d59-463a-b2a6-b03ff06409af.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3OGJjM2ZjLTlmMDgtNDdjYS04MWFlLWQ4OTA1NWM3ZWM0OVwvZDluMTd4ci03NjdjZjdlNy04ZDU5LTQ2M2EtYjJhNi1iMDNmZjA2NDA5YWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0wOtvrAtjWFYlUG276Wi-dzJGwtQlWhhA_MrJSsHA-8"
+
+- type: certification
+  name: Bloodborne
+  url: "https://www.playstation.com/ja-jp/games/bloodborne/"
+  badge: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c78bc3fc-9f08-47ca-81ae-d89055c7ec49/ddzt2ua-7de1ee44-e355-4ee3-9ae0-23e5aaf2915b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3OGJjM2ZjLTlmMDgtNDdjYS04MWFlLWQ4OTA1NWM3ZWM0OVwvZGR6dDJ1YS03ZGUxZWU0NC1lMzU1LTRlZTMtOWFlMC0yM2U1YWFmMjkxNWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YsBMfgqCk-WpfedR6SXQ2acgzfenyCXONIvu4Gmvyjo"

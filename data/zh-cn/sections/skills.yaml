@@ -1,0 +1,92 @@
+# section information
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of your each skill in the summary section.
+skills:
+- name: MATLAB
+  logo: "/images/sections/skills/MATLAB.png"
+  summary: ""
+  url: ""
+
+- name: Python
+  logo: "/images/sections/skills/Python.png"
+  summary: ""
+  url: ""
+
+- name: C++
+  logo: "/images/sections/skills/C++.png"
+  summary: ""
+  url: ""
+
+- name: HTML
+  logo: "/images/sections/skills/HTML.png"
+  summary: ""
+  url: ""
+
+- name: Javascript
+  logo: "/images/sections/skills/JAVA.png"
+  summary: ""
+  url: ""
+
+- name: Arduino
+  logo: "/images/sections/skills/Arduino.png"
+  summary: ""
+  url: ""
+
+- name: LaTeX
+  logo: "/images/sections/skills/LaTeX.png"
+  summary: ""
+  url: ""
+
+- name: Simulink
+  logo: "/images/sections/skills/Simulink.png"
+  summary: ""
+  url: ""
+
+- name: Simens NX
+  logo: "/images/sections/skills/NX.png"
+  summary: ""
+  url: ""
+
+- name: OpenRocket
+  logo: "/images/sections/skills/OpenRocket.png"
+  summary: ""
+  url: ""
+
+- name: Mathematica
+  logo: "/images/sections/skills/Mathematica.png"
+  summary: ""
+  url: ""
+
+- name: ANSYS Workbench
+  logo: "/images/sections/skills/ANSYS-Workbench.png"
+  summary: ""
+  url: ""
+
+- name: Git
+  logo: "/images/sections/skills/Git.png"
+  summary: ""
+  url: ""
+
+- name: Linux
+  logo: "/images/sections/skills/Linux.png"
+  summary: ""
+  url: ""
+
+- name: ROS
+  logo: "/images/sections/skills/ROS.png"
+  summary: ""
+  url: ""
+
+- name: PyTorch
+  logo: "/images/sections/skills/PyTorch.png"
+  summary: ""
+  url: ""

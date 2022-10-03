@@ -1,0 +1,132 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Space Systems
+  filter: "space systems"
+- name: Optimization
+  filter: "optimization"
+- name: Controls
+  filter: "controls"
+
+
+# your publications
+publications:
+
+- title: Quantitative Resilience of Generalized Integrators
+  publishedIn:
+    name: Submitted
+    date: Feb 2022
+    url:
+  authors:
+  - name: Jean-Baptiste Bouvier
+    url: https://www.researchgate.net/profile/Jean-Baptiste-Bouvier
+  - name: Kathleen Xu
+    url:
+  - name: Dr. Melkior Ornik
+    url: https://mornik.web.illinois.edu/
+  paper:
+    summary: To design critical systems engineers must be able to prove that their system can continue with its mission even after losing control 
+     authority over some of its actuators. Such a malfunction results in actuators producing possibly undesirable inputs over which the controller 
+     has real-time readings but no control. By definition, a system is resilient if it can still reach a target after a partial loss of control authority. 
+     However, after such a malfunction, a resilient system might be significantly slower to reach a target compared to its initial capabilities. To 
+     quantify this loss of performance we introduce the notion of quantitative resilience as the maximal ratio of the minimal times required to reach 
+     any target for the initial and malfunctioning systems. Naive computation of quantitative resilience directly from the definition is a complex task as 
+     it requires solving four nested, possibly nonlinear, optimization problems. The main technical contribution of this work is to provide an efficient 
+     method to compute quantitative resilience of control systems with multiple integrators and nonsymmetric input sets. Relying on control theory and on 
+     two novel geometric results we reduce the computation of quantitative resilience to a linear optimization problem. We illustrate our method on two 
+     numerical examples -- a trajectory controller for low-thrust spacecrafts and a UAV with eight propellers.
+    url: https://arxiv.org/pdf/2111.04163.pdf
+  categories: ["optimization","controls","space systems"]
+  tags: ["System Resilience", "Actuator Malfunction", "Reachability","Optimization"]
+
+- title: Repulsion-Based p-Dispersion with Distance Constraints in Non-Convex Polygons
+  publishedIn:
+    name: Annals of Operations Research
+    date: September 2021
+    url: https://www.springer.com/journal/10479
+  authors:
+  - name: Zhengguan Dai
+    url: https://github.com/zd6?tab=repositories
+  - name: Kathleen Xu
+    url:
+  - name: Dr. Melkior Ornik
+    url: https://mornik.web.illinois.edu/
+  paper:
+    summary: Motivated by the question of optimal facility placement, the classical p-dispersion problem seeks to place a fixed number of equally sized 
+     non-overlapping circles of maximal possible radius into a subset of the plane. While exact solutions to this problem may be found for placement 
+      into particular sets, the problem is provably NP-complete for general sets, and existing work is largely restricted to geometrically simple sets. 
+      This paper makes two contributions to the theory of p-dispersion. First, we propose a computationally feasible suboptimal approach to the p-dispersion 
+      problem for all non-convex polygons. The proposed method, motivated by the mechanics of the p-body problem, considers circle centers as continuously 
+      moving objects in the plane and assigns repulsive forces between different circles, as well as circles and polygon boundaries, with magnitudes 
+      inversely proportional to the corresponding distances. Additionally, following the motivating application of optimal facility placement, we consider 
+      existence of additional hard upper or lower distance bounds on pairs of circle centers, and adapt the proposed method to provide a p-dispersion 
+      solution that provably respects such constraints. We validate our proposed method by comparing it with previous exact and approximate methods for 
+      p-dispersion. The method quickly produces near-optimal results for a number of containers.
+    url: https://link.springer.com/article/10.1007/s10479-021-04281-z
+  categories: ["optimization"]
+  tags: ["Dispersion", "Strategic Planning", "Packing","Location"]
+
+- title: Quantitative Resilience of Linear Driftless Systems
+  publishedIn:
+    name: SIAM 2021 Conference on Control and its Applications
+    date: July 2021
+    url: https://epubs.siam.org/doi/book/10.1137/1.9781611976847
+  authors:
+  - name: Jean-Baptiste Bouvier
+    url: https://www.researchgate.net/profile/Jean-Baptiste-Bouvier
+  - name: Kathleen Xu
+    url:
+  - name: Dr. Melkior Ornik
+    url: https://mornik.web.illinois.edu/
+  paper:
+    summary: This paper introduces the notion of quantitative resilience of a control system. Following prior work, we study linear driftless systems 
+     enduring a loss of control authority over some of their actuators. Such a malfunction results in actuators producing possibly undesirable inputs 
+      over which the controller has real-time readings but no control. By definition, a system is resilient if it can still reach a target after a 
+      partial loss of control authority. However, after such a malfunction, a resilient system might be significantly slower to reach a target 
+      compared to its initial capabilities. We quantify this loss of performance through the new concept of quantitative resilience. We define such a 
+      metric as the maximal ratio of the minimal times required to reach any target for the initial and malfunctioning systems. Naïve computation of 
+      quantitative resilience directly from the definition is a complex task as it requires solving four nested, possibly nonlinear, optimization 
+      problems. The main technical contribution of this work is to provide an efficient method to compute quantitative resilience. Relying on control 
+      theory and on two novel geometric results we reduce the computation of quantitative resilience to a single linear optimization problem. We 
+      demonstrate our method on an opinion dynamics scenario.
+    url: https://epubs.siam.org/doi/pdf/10.1137/1.9781611976847.5
+  categories: ["optimization","controls"]
+  tags: ["System Resilience", "Actuator Malfunction", "Reachability","Optimization"]
+
+- title: Spacecraft Trajectory Tracking and Parameter Estimation Around a Splitting Contact Binary Asteroid
+  publishedIn:
+    name: Acta Astronautica
+    date: March 2020
+    url: https://www.researchgate.net/journal/Acta-Astronautica-0094-5765
+  authors:
+  - name: Tiago Silva
+    url: https://www.researchgate.net/profile/Tiago-Silva-53
+  - name: Jean-Baptiste Bouvier
+    url: https://www.researchgate.net/profile/Jean-Baptiste-Bouvier
+  - name: Kathleen Xu
+    url:
+  - name: Dr. Masatoshi Hirabayashi
+    url: https://www.eng.auburn.edu/directory/mzh0114
+  - name: Dr. Koki Ho
+    url: https://ssdl.gatech.edu/people/dr-koki-ho
+  paper:
+    summary: Increasing interest in asteroid mining and in-situ resource utilization will lead to an increase in asteroid surface operations. 
+     The geophysical properties of asteroids are often unknown and play a significant role in the resulting gravitational fields. Surface operations 
+     such as mining may significantly alter the asteroid’s structure or, in the case of contact binary asteroids, cause the asteroid to split depending 
+      on the rotational condition. The coupled problem of estimating unknown parameters of a splitting contact-binary system and controlling a 
+      spacecraft’s trajectory in the system’s vicinity is investigated. An indirect adaptive control scheme is utilized to simultaneously meet both 
+      objectives. The results are compared with the traditional 2-body controller and the improvement enabled by the proposed scheme is demonstrated.
+    url: https://www.researchgate.net/publication/339742412_SPACECRAFT_trajectory_tracking_and_parameter_estimation_around_a_splitting_contact_binary_asteroid
+  categories: ["space systems","controls"]
+  tags: ["Adaptive Control", "Trajectory Tracking", "Kalman Filter"]

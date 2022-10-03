@@ -1,0 +1,35 @@
+---
+title: SU30-MKK CAD Model
+weight: 210
+menu:
+  notes:
+    name: SU30-MKK CAD Model
+    identifier: notes-projects-su30mkk
+    parent: notes-projects
+    weight: 10
+---
+
+<!-- Variable -->
+{{< note title="Variable" >}}
+
+```bash
+NAME="John"
+echo $NAME
+echo "$NAME"
+echo "${NAME}
+```
+
+{{< /note >}}
+
+<!-- Condition -->
+{{< note title="Condition" >}}
+
+```bash
+if [[ -z "$string" ]]; then
+  echo "String is empty"
+elif [[ -n "$string" ]]; then
+  echo "String is not empty"
+fi
+```
+
+{{< /note >}}

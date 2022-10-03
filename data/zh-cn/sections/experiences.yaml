@@ -1,0 +1,69 @@
+# section information
+section:
+  name: 个人经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Reliable Autonomous Systems Lab
+    url: "https://aeroastro.mit.edu/realm/"
+    location: 剑桥，马萨诸塞州
+    # company overview
+    overview: 麻省理工 Reliable Autonomous Systems Lab 由[范楚楚](http://chuchu.mit.edu/)博士领导。
+      该研究小组致力于使用严格的数学，包括形式方法、机器学习和控制理论来设计、分析和验证安全自主系统。
+  positions:
+  - designation: 研究生研究员
+    start: 2021年9月
+    end: 2022年9月
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 研究了在动态环境中执行协作任务的自治系统的安全多智能体规划。
+    - 通过控制屏障函数为信息物理系统开发基于机器学习的容错控制算法。
+
+- company:
+    name: Learning, Decision, Control, Autonomy Group
+    url: "https://mornik.web.illinois.edu/"
+    location: 香槟，伊利诺伊州
+    overview: UIUC 的 Learning, Decision, Control, Autonomy 研究组由[梅尔基尔·奥尼克](https://mornik.web.illinois.edu/)博士领导。
+      该组通过研究控制、数据可用性和机器学习设计针对在复杂或未知环境中运行的系统的可证明安全、成功和高效的策略。
+  positions:
+  - designation: 本科研究助理
+    start: 2019年9月
+    end: 2021年3月
+    responsibilities:
+    - 开发了有效的方法来表征控制系统在攻击下的性能损失。
+    - 对自由形式多边形中 p-分散 的 NP 完全问题提出了计算上可行的解决方案。
+
+- company:
+    name: Putnam Research Group
+    url: "https://putnam.aerospace.illinois.edu/"
+    location: 香槟，伊利诺伊州
+    overview:
+     由[扎卡里·普特南](https://putnam.aerospace.illinois.edu/people/zachary-putnam/)博士领导的研究小组
+     专注于开发未来的高超音速和太空系统；空间制导；导航和控制；飞行力学和任务设计。
+  positions:
+  - designation: 本科研究助理
+    start: 2019年9月
+    end: 2021年1月
+    responsibilities:
+    - 协助开发用于简化航空航天器设计、验证和分析的 SLiC 工具。
+
+- company:
+    name: Space Systems Optimization Group
+    url: "https://ssog.ae.gatech.edu/"
+    location: 亚特兰大，佐治亚州
+    overview: 由[Koki Ho](https://ssdl.gatech.edu/people/dr-koki-ho) 博士领导的 Space Systems Optimization Group
+      研究太空空间物流和先进的任务概念，使机器人和人类太空探索的新任务和能力成为可能。
+  positions:
+  - designation: 本科研究助理
+    start: 2019年1月
+    end: 2019年5月
+    responsibilities:
+    - 在自适应控制方案中实施 UKF 和 EKF，以测试航天器围绕分裂小行星的轨迹。

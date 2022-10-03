@@ -1,0 +1,35 @@
+# some information about you
+name: "徐诗吟"
+nickname: "徐诗吟"
+image: "images/author/my-avatar.png"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "你好，我是"
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "bfst[at]mit.edu"
+#  phone: "+0123456789"
+  Linkedin:
+    icon: linkedin
+    url: "https://www.linkedin.com/in/kathleen-shiyin-xu/"
+    text: "Linkedin"
+  Github:
+    icon: github
+    url: "https://github.com/Boversten"
+    text: "Github"
+  steam:
+    icon: steam
+    url: "https://steamcommunity.com/id/boversten21/"
+    text: "Steam"
+  Google:
+    icon: google
+    url: "https://scholar.google.com/citations?user=d-zoJD0AAAAJ&hl=en"
+    text: "Google Scholar"
+
+# a summary of what you do
+summary:
+- 欢迎来到我的个人网站
+- 我是一名麻省理工在读研究生
+- 所学方向为航空航天
+- 我研究一些前沿的航空航天项目

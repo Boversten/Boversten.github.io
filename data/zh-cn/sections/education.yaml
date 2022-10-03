@@ -1,0 +1,163 @@
+# section information
+section:
+  name: 教育背景
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: 航空航天硕士学位
+  icon: fa-university
+  timeframe: 2021-现在
+  institution:
+    name: 麻省理工学院
+    url: "https://www.mit.edu/"
+#  grade: #(optional)
+#    scale: CGPA
+#    achieved: 3.6
+#    outOf: 4
+#  publications: #(optional)
+#  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    url: "#"
+#  - title: Fusce eu augue ut odio porttitor pulvinar.
+#    url: "#"
+#  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#    url: "#"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 5
+    courses:
+      - name: 反馈控制系统
+        achieved: 3.75
+        outOf: 4
+      - name: 系统验证的形式化方法
+        achieved: 3.80
+        outOf: 4
+      - name: 欠驱动机器人
+        achieved: 3.5
+        outOf: 4
+      - name: 机器学习
+        achieved: 3.75
+        outOf: 4
+      - name: 计算科学与工程
+        achieved: 3.80
+        outOf: 4
+    extracurricularActivities: #(optional)
+
+- name: 航空航天本科学位
+  icon: fa-graduation-cap
+  timeframe: 2017-2021
+  institution:
+    name: 伊利诺伊大学香槟分校
+    url: "https://illinois.edu/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 5
+    courses:
+    - name: 航空航天系统设计
+      achieved: 3.75
+      outOf: 4
+    - name: 航天器姿态控制
+      achieved: 3.80
+      outOf: 4
+    - name: 航空航天飞行力学
+      achieved: 3.5
+      outOf: 4
+    - name: 航空航天推进 + 实验
+      achieved: 3.75
+      outOf: 4
+    - name: 无人机导航与控制
+      achieved: 3.75
+      outOf: 4
+    - name: 电磁场与波
+      achieved: 3.80
+      outOf: 4
+    - name: 模拟信号处理
+      achieved: 3.5
+      outOf: 4
+    - name: 有限元分析
+      achieved: 3.75
+      outOf: 4
+    - name: 应用航空航天结构 + 实验
+      achieved: 3.80
+      outOf: 4
+    - name: 航空航天数值方法
+      achieved: 3.5
+      outOf: 4
+    - name: 航空航天动力系统
+      achieved: 3.75
+      outOf: 4
+    - name: 航空航天结构机械
+      achieved: 3.75
+      outOf: 4
+    - name: 可压缩流体
+      achieved: 3.75
+      outOf: 4
+    - name: 基础物理电磁学
+      achieved: 3.80
+      outOf: 4
+    - name: 热力学
+      achieved: 3.5
+      outOf: 4
+    - name: 航空航天控制系统
+      achieved: 3.75
+      outOf: 4
+    - name: 不可压缩流体
+      achieved: 3.75
+      outOf: 4
+    - name: 动力学介绍
+      achieved: 3.5
+      outOf: 4
+    - name: 电子电路 + 实验
+      achieved: 3.75
+      outOf: 4
+    - name: 静力学
+      achieved: 3.75
+      outOf: 4
+    - name: 工程材料
+      achieved: 3.75
+      outOf: 4
+    - name: 应用线代
+      achieved: 3.80
+      outOf: 4
+    - name: 微分方程介绍
+      achieved: 3.5
+      outOf: 4
+    - name: 数据分析
+      achieved: 3.75
+      outOf: 4
+    - name: 基础物理力学
+      achieved: 3.75
+      outOf: 4
+    - name: 微积分3
+      achieved: 3.80
+      outOf: 4
+    - name: 计算机建模
+      achieved: 3.5
+      outOf: 4
+    - name: 航空航天介绍
+      achieved: 3.75
+      outOf: 4
+  publications: #(optional)
+  - title: 非凸多边形中具有距离约束的基于排斥的 p-分散。
+    url: "https://link.springer.com/article/10.1007/s10479-021-04281-z"
+  - title: 广义积分器的定量弹性。
+    url: "https://arxiv.org/pdf/2111.04163.pdf"
+  - title: 线性无漂移系统的定量弹性。
+    url: "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976847.5"
+  - title: 分裂接触二元小行星周围的航天器轨迹跟踪和参数估计。
+    url: "https://www.researchgate.net/profile/Koki-Ho/publication/339742412_SPACECRAFT_trajectory_tracking_and_parameter_estimation_around_a_splitting_contact_binary_asteroid/links/5e624c54a6fdcc37dd07bae7/SPACECRAFT-trajectory-tracking-and-parameter-estimation-around-a-splitting-contact-binary-asteroid.pdf"
+  extracurricularActivities: #(optional)
+  - 伊利诺伊太空机器人社团, 机械组组长.
+  - 卫星开发社团, 姿态确定和控制系统组组员.
+  - 飞机制造社团, 组装组指导员.

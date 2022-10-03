@@ -1,0 +1,68 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Reliable Autonomous Systems Lab
+    url: "https://aeroastro.mit.edu/realm/"
+    location: Cambridge, MA
+    # company overview
+    overview: Reliable Autonomous Systems Lab at MIT is led by Dr. [Chuchu Fan](http://chuchu.mit.edu/).
+      The research group works on using rigorous mathematics including formal methods, machine learning, and control theory for the design, analysis, and verification of safe autonomous systems.
+  positions:
+  - designation: Graduate Researcher
+    start: Sep. 2021
+    end: Sep. 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Researched safe multi-agent planning for autonomous systems performing cooperative tasks in dynamic environments.
+    - Developed learning-based fault-tolerant control algorithms for cyber-physical systems via control barrier functions.
+
+- company:
+    name: Learning, Decision, Control, Autonomy Group
+    url: "https://mornik.web.illinois.edu/"
+    location: Champaign, IL
+    overview: The Learning, Decision, Control, Autonomy research group led by Dr. [Melkior Ornik](https://mornik.web.illinois.edu/)
+      studies control, data availability, and learning in order to design provably safe, successful, and efficient planning strategies for systems operating in complex or unknown environments.
+  positions:
+  - designation: Undergraduate Research Assistant
+    start: Sep. 2019
+    end: Mar. 2021
+    responsibilities:
+    - Developed efficient methods for characterizing control system’s loss of performance under attack.
+    - Proposed computationally feasible solutions to the NP-complete problem of p-dispersion in free-form polygons.
+
+- company:
+    name: Putnam Research Group
+    url: "https://putnam.aerospace.illinois.edu/"
+    location: Champaign, IL
+    # company overview
+    overview: The Putnam Research Group led by Dr. [Zachary Putnam](https://putnam.aerospace.illinois.edu/people/zachary-putnam/) focuses on developing future hypersonic and space systems; space guidance, navigation, and control; flight mechanics, and mission design.
+  positions:
+  - designation: Undergraduate Research Assistant
+    start: Sep. 2019
+    end: Jan. 2021
+    responsibilities:
+    - Assisted in development of the SLiC tool for simplifying the design, verification, and analysis of aerospace vehicles.
+
+- company:
+    name: Space Systems Optimization Group
+    url: "https://ssog.ae.gatech.edu/"
+    location: Atlanta, GA
+    overview: The Space Systems Optimization Group directed by Dr. [Koki Ho](https://ssdl.gatech.edu/people/dr-koki-ho)
+      creates space logistics and advanced mission concepts that enable new missions and capabilities in robotic and human space exploration.
+  positions:
+  - designation: Undergraduate Research Assistant
+    start: Jan. 2019
+    end: May. 2019
+    responsibilities:
+    - Implemented UKF and EKF in an adaptive control scheme to test spacecraft’s trajectory around a splitting asteroid.

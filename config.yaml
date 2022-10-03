@@ -1,0 +1,136 @@
+baseURL: https://Boversten.github.io
+
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English-US
+    languageCode: en-us
+    title: "KX's Personal Website"
+    weight: 1
+  zh-cn:
+    languageName: 简体中文
+    languageCode: zh-cn
+    title: "徐诗吟的个人网站"
+    weight: 2
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 5
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # Background Image
+  background: "images/my-background.jpg"
+
+  # logos
+  logo:
+    main: images/logo/my-logo-dark.png
+    inverted: images/logo/my-logo.png
+    favicon: images/logo/my-favicon.png
+
+  # GitHub repo URL and branch of your site
+  gitRepo: https://github.com/Boversten/Boversten.github.io
+  gitBranch: main
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 6
+
+  # Enable dark theme
+  darkMode:
+    provider: darkreader
+    enable: true
+    default: system
+
+  # Configure various features of this theme
+  features:
+    # Enable and configure portfolio
+    portfolio:
+      enable: true
+    # Enable and configure blog posts
+    blog:
+      enable: true
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+#        reddit: true
+#        whatsapp: true
+#        email: true
+        # tumblr: true
+        # pocket: true
+        # diaspora: true
+        # mastodon: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: false
+
+    # Enable Analytics
+    analytics:
+      enabled: false
+      # Google Analytics
+      google:
+        id: G-H4LBG7NDFZ
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Show tags under the post title
+  enableTags: true
+
+  flagOverwrites:
+  - languageCode: en
+    countryCode: us
+  - languageCode: zh-cn
+    countryCode: cn
+
+  # Specify whether to show flag in the language selector. Default is true.
+  showFlags: true
+
+  # Provide footer configuration.
+  footer:
+    enable: true
+    # You can provide your custom footer template using this option.
+    # Put your template in "layouts/partials" folder of your repo.
+    template: footer.html
+    # Show/hide navigation in the footer. Default is "true".
+    navigation:
+      enable: true
+      # show custom menus in the footer
+      customMenus: true
+    # Show/hide "Contact Me" section in the footer. Default is "true".
+    contactMe:
+      enable: true
+    # Show/hide credentials section in the footer. Default is "true".
+    credentials:
+      enable: true
+
+    # Show/hide newsletter section in the footer. Default is "true".
+    # Currently, it supports "mailchimp".
+    newsletter:
+      enable: true
+      provider: mailchimp
+      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+
+    # Show/hide disclaimer notice in the footer. Default is "false".
+    disclaimer:
+      enable: false
