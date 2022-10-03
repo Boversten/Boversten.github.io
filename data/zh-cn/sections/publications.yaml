@@ -10,7 +10,7 @@ section:
 
 # filter buttons
 buttons:
-- name: 所以
+- name: 全部
   filter: "all"
 - name: 太空系统
   filter: "space systems"
