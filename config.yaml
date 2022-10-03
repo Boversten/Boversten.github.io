@@ -91,6 +91,8 @@ params:
       google:
         id: G-H4LBG7NDFZ
 
+
+##
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
