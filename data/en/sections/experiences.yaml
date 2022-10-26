@@ -11,6 +11,22 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Space Telecommunications, Astronomy, and Radiation Lab
+    url: "http://starlab.mit.edu/"
+    location: Cambridge, MA
+    # company overview
+    overview: The Space Telecommunications, Astronomy and Radiation Laboratory, led by Prof. [Kerri Cahoy](https://eapsweb.mit.edu/people/kcahoy)
+      specializes in designing state-of-the-art technology for space applications.
+  positions:
+  - designation: Graduate Researcher
+    start: Oct. 2022
+    end: Present
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Researching differential drag maneuvers
+
+- company:
     name: Reliable Autonomous Systems Lab
     url: "https://aeroastro.mit.edu/realm/"
     location: Cambridge, MA

@@ -76,16 +76,17 @@ badges:
   url: "https://www.mit.edu/"
   badge: "https://cdn.freebiesupply.com/images/large/2x/mit-logo-transparent.png"
 
+#- type: certification
+#  name: MIT
+#  url: "https://www.mit.edu/"
+#  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png"
+
 - type: certification
   name: UIUC circle
   url: "https://illinois.edu/"
   badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/University_of_Illinois_seal.svg/1200px-University_of_Illinois_seal.svg.png"
 
-#- type: certification
-#  name: MIT
-#  url: "https://www.mit.edu/"
-#  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png"
-#
+
 #- type: certification
 #  name: UIUC
 #  url: "https://illinois.edu/"
@@ -100,8 +101,11 @@ badges:
 - type: certification
   name: NASA circle
   url: "https://www.nasa.gov/"
-  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
-  
+#  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
+#  badge: "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+#  badge: "https://starlab.mit.edu/sites/default/files/images/logo_1.svg"
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/NASA_Wormball_logo.svg/2048px-NASA_Wormball_logo.svg.png"
+
 - type: certification
   name: Elden Ring
   url: "https://www.eldenring.jp/"
