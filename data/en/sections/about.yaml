@@ -20,6 +20,11 @@ resume: "files/resume.pdf"
 # a summary about you
 summary: 'I am passionate about space exploration and my dream is to develop commercial spaceflights and 
         enable humans traveling to deep space in the near future. 
+        
+        I am currently working on the mission operation and analysis of a cross-link laser communication 
+        CubeSat mission, which is supported by NASA Ames Research Center. The CubeSat is scheduled to launch 
+        in 2024.
+        
         My past research focused on safe resilient control for autonomous systems using safety certificates, 
         loss of performance quantitation of a control system under loss of control authority with quantitative resilience,
         computationally efficient method for optimal facility placement in free-form non-convex polygons with distance constraints,
@@ -86,12 +91,17 @@ badges:
 #  url: "https://illinois.edu/"
 #  badge: "https://tukuz.com/wp-content/uploads/2020/12/university-of-illinois-at-urbana-champaign-logo-vector.png"
 
-- type: soft-skill-indicator
-  name: Next Stop- Loading...
-  percentage: 80
-  color: green
+#- type: soft-skill-indicator
+#  name: Next Stop- Loading...
+#  percentage: 80
+#  color: green
 
 #
+- type: certification
+  name: NASA circle
+  url: "https://www.nasa.gov/"
+  badge: "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+  
 - type: certification
   name: Elden Ring
   url: "https://www.eldenring.jp/"
